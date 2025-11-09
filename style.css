@@ -2,11 +2,11 @@
   background-color: blueviolet;
   background-image: url("flower.avif");
   background-repeat: no-repeat; /*repeat,repeat-x,repeat-y*/
-  background-position: center; /*top left, 20% -5%*/
+  background-position:  center; /*100px 50px center top*/
   background-size: cover; /*contain,90% 90%*/
   background-attachment: fixed; /*to make the background-image fix*/
   height: 300px;
-  width: 800px;
+  width: 900px;
   color: white;
 }
 #second {
@@ -15,13 +15,13 @@
   /* background: linear-gradient(pink, yellow); */
   /* background: linear-gradient(to right, pink, yellow); */
   /* background: linear-gradient(to bottom right, pink, yellow); */
-  /* background: linear-gradient(pink, yellow, green, orange); */
-  background: linear-gradient(aqua, green, violet);
+  background: linear-gradient(pink, yellow, green, orange);
+  /* background: linear-gradient(aqua, green, violet); */
 }
 #third {
   height: 300px;
   width: 300px;
-  /* background: radial-gradient(violet, yellow, red); */
+  background: radial-gradient(violet, yellow, red);
   background: radial-gradient(violet 5%, yellow 20%, pink 65%);
   margin-top: 20px;
 }
