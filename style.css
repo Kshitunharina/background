@@ -12,11 +12,12 @@
 #second {
   height: 300px;
   width: 300px;
-  /* background: linear-gradient(pink, yellow); */
+  background: linear-gradient(pink, yellow);
   /* background: linear-gradient(to right, pink, yellow); */
   /* background: linear-gradient(to bottom right, pink, yellow); */
-  background: linear-gradient(pink, yellow, green, orange);
+  /* background: linear-gradient(pink, yellow, green, orange); */
   /* background: linear-gradient(aqua, green, violet); */
+  
 }
 #third {
   height: 300px;
@@ -24,6 +25,7 @@
   background: radial-gradient(violet, yellow, red);
   background: radial-gradient(violet 5%, yellow 20%, pink 65%);
   margin-top: 20px;
+  
 }
 
 /* The animation code */
